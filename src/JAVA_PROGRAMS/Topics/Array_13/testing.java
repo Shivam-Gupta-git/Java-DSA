@@ -6,17 +6,20 @@ import java.util.Scanner;
 public class testing {
 
     public static void test(int[] num) {
-        for (int i = 0; i < num.length; i++){
-            for (int j = 1 + i; j < num.length; j++){
-                if(num[i] == num[j]){
-                    System.out.print(num[i] + " ");
-                    break;
-                }
-            }
+       int[] missingArray = new int[num.length];
+       int index = 0;
+        int compNum = 1;
+       for (int i = 0; i < num.length; i++){
+        while (num[i] > compNum){
+            missingArray[index ++] = compNum;
+            compNum++;
         }
+        compNum++;
+       }
+        System.out.println(Arrays.toString(Arrays.copyOf(missingArray, index)));
     }
     public static void main(String[] args) {
-        int[] number = {1, 2, 2, 3, 4, 1, 5};
+        int[] number = {1, 2, 4, 5, 7};
         test(number);
     }
 }
