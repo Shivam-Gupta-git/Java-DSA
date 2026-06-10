@@ -1,25 +1,31 @@
 package JAVA_PROGRAMS.Topics.Array_13;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class testing {
+ public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+     System.out.print("Please enter your number, which you want to check Is this number Prime or Not: ");
+     int num = sc.nextInt();
+     boolean result = primeNUm(num);
 
-    public static void test(int[] num) {
-       int[] missingArray = new int[num.length];
-       int index = 0;
-        int compNum = 1;
-       for (int i = 0; i < num.length; i++){
-        while (num[i] > compNum){
-            missingArray[index ++] = compNum;
-            compNum++;
-        }
-        compNum++;
-       }
-        System.out.println(Arrays.toString(Arrays.copyOf(missingArray, index)));
-    }
-    public static void main(String[] args) {
-        int[] number = {1, 2, 4, 5, 7};
-        test(number);
-    }
+     if (result) {
+         System.out.println(num + " is a Prime Number");
+     } else {
+         System.out.println(num + " is not a Prime Number");
+     }
+ }
+ public static boolean primeNUm(int num){
+    boolean isPrime = true;
+  if(num <= 1){
+      isPrime = false;
+  }else {
+      for (int i = 2; i <= Math.sqrt(num); i++){
+          if(num % i == 0){
+              isPrime = false;
+          }
+      }
+  }
+     return  isPrime;
+ }
 }

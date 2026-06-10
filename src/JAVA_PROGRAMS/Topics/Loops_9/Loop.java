@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Loop {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-// -> while loop...................
+/*---------- while loop ------------*/
 //        (Initialization)
 //        int i = 1;
 //        (condition)
@@ -32,7 +32,7 @@ public class Loop {
 //            i++;
 //        }
 
-//  -> For loop..................
+/*------------- For loop ----------------*/
 //     (initialization; condition; update)
 //       for (int i = 1; i <= 10; i++){
 //           System.out.println("Hello world");
@@ -65,14 +65,14 @@ public class Loop {
 //    }
 //        System.out.println(reverse);
 
-//  -> Do while loop................
-        int i = 0;
-        do {
-            System.out.println("hello world");
-            i++;
-        }while (i <= 10);
+/*-------------- Do while loop -----------------*/
+//        int i = 0;
+//        do {
+//            System.out.println("hello world");
+//            i++;
+//        }while (i <= 10);
 
-//  -> Break statement.................
+/*------------- Break statement ---------------*/
 //        for (int i = 1; i <= 5; i++){
 //            if(i == 3){
 //                break;

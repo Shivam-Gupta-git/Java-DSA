@@ -9,7 +9,7 @@ public class star_pattern {
 //  2. number of times -> inner loop
 //  3. what to print -> *
 
-// Q. Print Reverse star pattern.............................
+/*-------------- Q. Print Reverse star pattern -----------------*/
 //        int num = 5;
 //      for(int i = 0; i <= num; i++){
 //          for (int j = 1; j <= num - i ; j++){
@@ -18,7 +18,7 @@ public class star_pattern {
 //          System.out.println();
 //      }
 
-// Q. Number Triangle.............................
+/*------------- Q. Number Triangle ---------------*/
 //        int num = 5;
 //        for (int i = 1; i <= num; i++){
 //            for (int j = 1; j<= i; j++){
@@ -27,7 +27,7 @@ public class star_pattern {
 //            System.out.println();
 //        }
 
-// Q. Increasing and decreasing pattern.............................
+/*----------- Q. Increasing and decreasing pattern --------------*/
 //        int num = 5;
 //        for (int i = 0; i < (2 * num); i++){
 //            int total = i > num ? (2 * num - i) : i;
@@ -37,7 +37,7 @@ public class star_pattern {
 //            System.out.println();
 //        }
 
-// Q. Left-Aligned Triangle..............................
+/*------------ Q. Left-Aligned Triangle -------------*/
 //        int num = 5;
 //        for (int i = 1; i <= num; i++){
 //            for (int j = 1; j <= num - i; j++){
@@ -49,7 +49,7 @@ public class star_pattern {
 //            System.out.println();
 //        }
 
-// Q. Inverted Left-Angle Triangle...........................
+/*------------ Q. Inverted Left-Angle Triangle --------------*/
 //        int num = 5;
 //        for (int i = num; i >= 1; i--){
 //            for (int j = 1; j <= (num - i); j++){
@@ -61,7 +61,7 @@ public class star_pattern {
 //            System.out.println();
 //        }
 
-// Q. Pyramid Pattern.............................
+/*------------ Q. Pyramid Pattern --------------*/
 //        int num = 5;
 //        for (int i = 1; i <= num; i++){
 //            for (int j = 1; j <= (num - i); j++){
@@ -73,7 +73,7 @@ public class star_pattern {
 //            System.out.println();
 //        }
 
-// Q. Inverted Pyramid Pattern..................................
+/*-------------- Q. Inverted Pyramid Pattern -----------------*/
 //        int num = 5;
 //        for (int i = num; i >= 1; i--){
 //            for (int j = 1; j <= (num - i); j++){
@@ -85,28 +85,20 @@ public class star_pattern {
 //            System.out.println();
 //        }
 
-// Q. Diamond Pattern................................
+/*------------ Q. Diamond Pattern ----------------*/
 //        int num = 5;
-//        for (int i = 1; i <= num; i++){
-//            for (int j = 1; j <= (num - i); j++){
+//        for (int i = 1; i <= (num * 2); i++){
+//            int total = i > num ? (num * 2 - i) : i;
+//            for (int j = 1; j <= (num - total); j++){
 //                System.out.print(" ");
 //            }
-//            for (int k = 1; k <= (2 * i - 1); k++){
-//                System.out.print("*");
-//            }
-//            System.out.println();
-//        }
-//        for (int i = num; i >= 1; i--){
-//            for (int j = 1; j <= (num - i); j++){
-//                System.out.print(" ");
-//            }
-//            for (int k = 1; k <= (2 * i - 1); k++){
+//            for (int k = 1; k <= (2 * total - 1); k++){
 //                System.out.print("*");
 //            }
 //            System.out.println();
 //        }
 
-// Q. Hourglass Pattern......................
+/*------------- Q. Hourglass Pattern -------------*/
 //        int num = 5;
 //        for (int i = num; i >= 1; i--){
 //            for (int j = 1; j <= num - i; j++){
@@ -128,7 +120,7 @@ public class star_pattern {
 //        }
 
 
-// Q. Right-Angled Triangle....................................
+/*------------- Q. Right-Angled Triangle ----------------*/
 //    int num = 5;
 //    for (int i = 1; i <= num; i++){
 //        for (int j = 1; j <= i; j++){
@@ -137,7 +129,7 @@ public class star_pattern {
 //        System.out.println();
 //    }
 
-// Q. Print Inverted Star Pattern...........................
+/*----------- Q. Print Inverted Star Pattern ---------------*/
 //  (1st way)
 //        int num = 5;
 //        for (int i = 1; i <= num; i++) {

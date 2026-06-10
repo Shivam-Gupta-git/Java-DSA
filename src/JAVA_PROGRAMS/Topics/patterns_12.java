@@ -1,7 +1,7 @@
 package JAVA_PROGRAMS.Topics;
 
 public class patterns_12 {
-//  Hollow Patterns.
+/*--------  Hollow Patterns. ---------*/
 //    public static void hollowPattern(int rows, int columns){
 //        for (int i = 1; i <= rows; i++){
 //            for (int j = 1; j <= columns; j++){
@@ -15,7 +15,7 @@ public class patterns_12 {
 //        }
 //    }
 
-//  Inverted & Rotated Half Pyramid.
+/*----------  Inverted & Rotated Half Pyramid. ----------*/
 //    public static void invertedPyramid(int num){
 //        for (int i = 1; i <= num; i++){
 //            for (int j = 1; j <= num - i; j++){
@@ -28,7 +28,7 @@ public class patterns_12 {
 //        }
 //    }
 
-//  Inverted Half Pyramid.
+/*--------- Inverted Half Pyramid. -----------*/
 //    public static void halfPyramid(int num) {
 //        for (int i = 1; i <= num; i++) {
 //            for (int j = 1; j <= num - i + 1; j++) {
@@ -38,7 +38,7 @@ public class patterns_12 {
 //        }
 //    }
 
-//  Inverted half Pyramid with number
+/*-------- Inverted half Pyramid with number ------------*/
 //    public static void halfPyramidWithNum(int num){
 //        for (int i = 1; i <= num; i++){
 //            for (int j = 1; j <= num - i + 1; j++){
@@ -48,7 +48,7 @@ public class patterns_12 {
 //        }
 //    }
 
-//  Floyd's Triangle.
+/*----------  Floyd's Triangle. ------------*/
 //    public static void floyd(int num){
 //        int counter = 1;
 //        for (int i = 1; i <= num; i++){
@@ -60,7 +60,7 @@ public class patterns_12 {
 //        }
 //    }
 
-//  0-1 Triangle.
+/*---------  0-1 Triangle. -----------*/
 //public static void triangle(int num){
 //    for (int i = 1; i <= num; i++){
 //        for (int j = 1; j <= i; j++){

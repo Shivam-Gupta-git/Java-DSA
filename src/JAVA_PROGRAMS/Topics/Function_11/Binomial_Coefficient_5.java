@@ -1,7 +1,7 @@
 package JAVA_PROGRAMS.Topics.Function_11;
 
 public class Binomial_Coefficient_5 {
-// -> Find the Binomial Coefficient.(1st part)
+/*------ -> Find the Binomial Coefficient.(1st part) -------*/
 //    n!/r!(n - r)! (formula)
 
      public static int calculateFactorial (int n){
